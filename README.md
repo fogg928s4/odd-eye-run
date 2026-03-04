@@ -5,3 +5,9 @@ A programa made for running multithread and multiterminal scripts on the differe
 ## Why?
 
 To avoid confusion on running multiple scripts on different directories. For example: a project with several microservices that require running in parallel.
+
+Just run
+
+```bash
+make
+```

@@ -6,6 +6,8 @@ TARGET	:= bin/odd-eye-run
 SRC_DIR	:= src
 BIN_DIR	:= bin
 
+MAIN_SRC_FILE	:= main.c
+
 # Execute
 odd_eye_runner:
-	$(CC) $(SRC_DIR)/main.c -o $(TARGET) $(CFLAGS)
+	$(CC) $(SRC_DIR)/$(MAIN_SRC_FILE) -o $(TARGET) $(CFLAGS)
