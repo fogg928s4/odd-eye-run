@@ -1,7 +1,8 @@
 #include "util.c"
 #include "modes.c"
 
-int main(int argc, char* argv[]) {
+int main() {
+    enableRawMode();
     die("Odd Eye Runner");
     return 0;
 }
