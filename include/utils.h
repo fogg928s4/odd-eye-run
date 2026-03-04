@@ -3,7 +3,7 @@
 * purposes
 */
 
-#include <sys/ioctl.h>
+#include "mainHead.h"
 
 /* Preprocessors */
 #ifndef ABUF_INIT
@@ -28,4 +28,5 @@ void processKeypress();
 int getCursorPosition(int *rows, int *cols);
 
 int getWindowSize(int *rows, int *cols);
+void initViewer();
 void drawRows(struct appBuff *ab);
