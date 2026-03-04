@@ -2,7 +2,9 @@
 * Main header file for inclusion in the main
 * Includes both custom lib functions and GNU library
 */
+#ifndef __MAIN_HEAD_ODD_EYE__
 
+#define __MAIN_HEAD_ODD_EYE__
 #include <ctype.h>
 #include <errno.h>
 #include <termios.h>
@@ -12,4 +14,4 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+#endif

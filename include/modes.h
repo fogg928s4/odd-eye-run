@@ -2,6 +2,8 @@
 * Header file for the functions used in the manipulation
 * of the terminal mode...
 */
+#ifndef __MODES_HEADER__
+#define __MODES_HEADER__
 #include "mainHead.h"
 
 #ifndef MAX_VTIME
@@ -26,3 +28,5 @@ struct append_buffer {
     char *b;
     int length;
 };
+
+#endif

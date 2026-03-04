@@ -3,13 +3,14 @@
 * purposes
 */
 
-#include "mainHead.h"
-
 /* Preprocessors */
 #ifndef ABUF_INIT
 #define ABUF_INIT {NULL, 0}
 #endif
 
+#ifndef __UTILS_HEADER__
+#define __UTILS_HEADER__
+#include "mainHead.h"
 #define CTRL_KEY(K) ((k) & 0x1f)
 
 /* Structs */
@@ -30,3 +31,5 @@ int getCursorPosition(int *rows, int *cols);
 int getWindowSize(int *rows, int *cols);
 void initViewer();
 void drawRows(struct appBuff *ab);
+
+#endif
