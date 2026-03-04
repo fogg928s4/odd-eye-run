@@ -20,7 +20,7 @@ struct appBuff {
 };
 
 
-void die();
+void die(const char *s);
 void appendBufferFree(struct appBuff *ab);
 
 int readKeypress();

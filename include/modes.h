@@ -19,4 +19,4 @@ struct editorConfig {
 struct append_buffer {
     char *b;
     int length;
-}
+};

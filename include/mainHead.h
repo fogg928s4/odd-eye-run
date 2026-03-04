@@ -6,9 +6,10 @@
 #include <ctype.h>
 #include <errno.h>
 #include <termios.h>
+#include <sys/ioctl.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <string.h>
 
-#include "modes.h"
-#include "utils.h"
+

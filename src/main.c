@@ -1,6 +1,7 @@
-#include "include/mainHead.h"
+#include "utils.h"
+#include "util.c"
 
-int main(int argc, char* argv[]) {
-    puts("Odd Eye Runner");
+int main() {
+    die("Odd Eye Runner");
     return 0;
 }
