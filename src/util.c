@@ -1,5 +1,4 @@
 #include "utils.h"
-#include "mainHead.h"
 
 void die(const char *s) {
     write(STDERR_FILENO, "\x1b[2J",4);
