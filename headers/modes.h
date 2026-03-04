@@ -1,3 +1,0 @@
-void initEditor();
-
-void enableRawMode();
